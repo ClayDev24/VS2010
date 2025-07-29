@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\defines.h" />
+    <ClInclude Include="..\..\include\include_all.h" />
+    <ClInclude Include="..\..\include\mat.h" />
+    <ClInclude Include="..\..\include\typedefs.h" />
+    <ClInclude Include="..\..\include\utils.h" />
+    <ClInclude Include="..\..\include\vld.h" />
+    <ClInclude Include="..\..\include\vldapi.h" />
+    <ClInclude Include="..\..\include\_colour.h" />
+    <ClInclude Include="CStr.h" />
+    <ClInclude Include="EnterValue.h" />
+    <ClInclude Include="Extenso.h" />
+    <ClInclude Include="Memset.h" />
+    <ClInclude Include="PrintBinary.h" />
+    <ClInclude Include="TimeElapsed.h" />
+    <ClInclude Include="Tokenizer.h" />
+    <ClInclude Include="VetorComparison.h" />
+    <ClInclude Include="_allocCount.h" />
+    <ClInclude Include="_assert.h" />
+    <ClInclude Include="_charIsWhat.h" />
+    <ClInclude Include="_chronometer.h" />
+    <ClInclude Include="_commandLineArgs.h" />
+    <ClInclude Include="_conversions.h" />
+    <ClInclude Include="_countVector.h" />
+    <ClInclude Include="Dictionary.h" />
+    <ClInclude Include="_fileCopyCat.h" />
+    <ClInclude Include="_inputLine.h" />
+    <ClInclude Include="_inputWord.h" />
+    <ClInclude Include="_isNumber.h" />
+    <ClInclude Include="_random.h" />
+    <ClInclude Include="_randomWords.h" />
+    <ClInclude Include="_require.h" />
+    <ClInclude Include="_setLocale.h" />
+    <ClInclude Include="_shellExe.h" />
+    <ClInclude Include="_showVetor.h" />
+    <ClInclude Include="_sleep.h" />
+    <ClInclude Include="_sort.h" />
+    <ClInclude Include="_testMemory.h" />
+    <ClInclude Include="_toUpper.h" />
+    <ClInclude Include="_typeNumber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="allocCount.cpp" />
+    <ClCompile Include="CStr.cpp" />
+    <ClCompile Include="Dictionary.cpp" />
+    <ClCompile Include="EnterValue.cpp" />
+    <ClCompile Include="Extenso.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrintBinary.cpp" />
+    <ClCompile Include="TimeElapsed.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
+    <ClCompile Include="vetorComparison.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7FC2CFE7-4497-48BA-AADA-C1530F1EAC56}</ProjectGuid>
+    <RootNamespace>Utilidades</RootNamespace>
+    <ProjectName>_Utilidades</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(CPP)\VS2010\Lib\</OutDir>
+    <IncludePath>$(CPP)\VS2010\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(CPP)\VS2010\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>I:\Programming\CPP\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>console.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)_utils.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
