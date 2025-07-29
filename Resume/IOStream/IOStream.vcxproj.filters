@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="copyfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ignore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="in_avail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="open.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="peek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="put.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rdbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rdstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="read_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="register_callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sputbackc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

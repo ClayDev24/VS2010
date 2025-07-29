@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{feb54552-aff8-428e-a0b1-b874c2ee4655}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_allocCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_charIsWhat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_chronometer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_commandLineArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_countVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_fileCopyCat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_inputLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_inputWord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_isNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_randomWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_require.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_setLocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_shellExe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_showVetor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_testMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_toUpper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_typeNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extenso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintBinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeElapsed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VetorComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\_colour.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\defines.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\include_all.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mat.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\typedefs.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\utils.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vld.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vldapi.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="CStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="allocCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Extenso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeElapsed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vetorComparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

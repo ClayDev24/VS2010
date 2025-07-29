@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binary_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_negate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bind1st.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bind2nd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="divides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="greater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="greater_equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="less.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="less_equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logical_and.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logical_not.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logical_or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modulus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multiplies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="negate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="not_equal_to.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="not1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="not2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer_to_binary_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer_to_unary_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptr_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unary_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unary_negate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
