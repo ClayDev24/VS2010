@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeMaster", "CodeMaster\CodeMaster.vcxproj", "{CCEE7327-BAA1-42A0-BBB2-ADB832ECE279}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter01", "Chapter01\Chapter01.vcxproj", "{E672FC76-28F2-4480-88BE-C5C09C85F8AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCEE7327-BAA1-42A0-BBB2-ADB832ECE279}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCEE7327-BAA1-42A0-BBB2-ADB832ECE279}.Debug|Win32.Build.0 = Debug|Win32
+		{CCEE7327-BAA1-42A0-BBB2-ADB832ECE279}.Release|Win32.ActiveCfg = Release|Win32
+		{CCEE7327-BAA1-42A0-BBB2-ADB832ECE279}.Release|Win32.Build.0 = Release|Win32
+		{E672FC76-28F2-4480-88BE-C5C09C85F8AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E672FC76-28F2-4480-88BE-C5C09C85F8AB}.Debug|Win32.Build.0 = Debug|Win32
+		{E672FC76-28F2-4480-88BE-C5C09C85F8AB}.Release|Win32.ActiveCfg = Release|Win32
+		{E672FC76-28F2-4480-88BE-C5C09C85F8AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allegro", "Allegro\Allegro.vcxproj", "{3567463A-90E3-4EB4-BC08-1D89FAE49645}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Installation", "Installation\Installation.vcxproj", "{E0F373CD-7A93-4925-9732-4A3D8FE57BC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Images", "Images\Images.vcxproj", "{1241D11B-BF69-4AB0-BB56-5BDBB8D88E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3567463A-90E3-4EB4-BC08-1D89FAE49645}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3567463A-90E3-4EB4-BC08-1D89FAE49645}.Debug|Win32.Build.0 = Debug|Win32
+		{3567463A-90E3-4EB4-BC08-1D89FAE49645}.Release|Win32.ActiveCfg = Release|Win32
+		{3567463A-90E3-4EB4-BC08-1D89FAE49645}.Release|Win32.Build.0 = Release|Win32
+		{E0F373CD-7A93-4925-9732-4A3D8FE57BC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0F373CD-7A93-4925-9732-4A3D8FE57BC2}.Debug|Win32.Build.0 = Debug|Win32
+		{E0F373CD-7A93-4925-9732-4A3D8FE57BC2}.Release|Win32.ActiveCfg = Release|Win32
+		{E0F373CD-7A93-4925-9732-4A3D8FE57BC2}.Release|Win32.Build.0 = Release|Win32
+		{1241D11B-BF69-4AB0-BB56-5BDBB8D88E2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1241D11B-BF69-4AB0-BB56-5BDBB8D88E2B}.Debug|Win32.Build.0 = Debug|Win32
+		{1241D11B-BF69-4AB0-BB56-5BDBB8D88E2B}.Release|Win32.ActiveCfg = Release|Win32
+		{1241D11B-BF69-4AB0-BB56-5BDBB8D88E2B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

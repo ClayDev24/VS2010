@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Economia", "Economia\Economia.vcxproj", "{6F0509D5-7C50-4815-8313-18B406B6B025}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Investimentos", "Investimentos\Investimentos.vcxproj", "{8F170B5E-D61A-4010-9C83-8D007B97E527}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRPF", "IRPF\IRPF.vcxproj", "{77413893-F31A-4C3C-A155-D413D3B6E2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0509D5-7C50-4815-8313-18B406B6B025}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F0509D5-7C50-4815-8313-18B406B6B025}.Debug|Win32.Build.0 = Debug|Win32
+		{6F0509D5-7C50-4815-8313-18B406B6B025}.Release|Win32.ActiveCfg = Release|Win32
+		{6F0509D5-7C50-4815-8313-18B406B6B025}.Release|Win32.Build.0 = Release|Win32
+		{8F170B5E-D61A-4010-9C83-8D007B97E527}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F170B5E-D61A-4010-9C83-8D007B97E527}.Debug|Win32.Build.0 = Debug|Win32
+		{8F170B5E-D61A-4010-9C83-8D007B97E527}.Release|Win32.ActiveCfg = Release|Win32
+		{8F170B5E-D61A-4010-9C83-8D007B97E527}.Release|Win32.Build.0 = Release|Win32
+		{77413893-F31A-4C3C-A155-D413D3B6E2DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77413893-F31A-4C3C-A155-D413D3B6E2DC}.Debug|Win32.Build.0 = Debug|Win32
+		{77413893-F31A-4C3C-A155-D413D3B6E2DC}.Release|Win32.ActiveCfg = Release|Win32
+		{77413893-F31A-4C3C-A155-D413D3B6E2DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

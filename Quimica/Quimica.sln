@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quimica", "Quimica\Quimica.vcxproj", "{82D5B365-A2F8-45EA-B72B-8D4208543DB3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ElementosQuimicos", "ElementosQuimicos\ElementosQuimicos.vcxproj", "{3907CD23-DBC8-45EB-861F-0AA290248C08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tabela Periodica", "Tabela Periodica\Tabela Periodica.vcxproj", "{E257CF51-854F-481E-848B-B304BBCB3A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82D5B365-A2F8-45EA-B72B-8D4208543DB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82D5B365-A2F8-45EA-B72B-8D4208543DB3}.Debug|Win32.Build.0 = Debug|Win32
+		{82D5B365-A2F8-45EA-B72B-8D4208543DB3}.Release|Win32.ActiveCfg = Release|Win32
+		{82D5B365-A2F8-45EA-B72B-8D4208543DB3}.Release|Win32.Build.0 = Release|Win32
+		{3907CD23-DBC8-45EB-861F-0AA290248C08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3907CD23-DBC8-45EB-861F-0AA290248C08}.Debug|Win32.Build.0 = Debug|Win32
+		{3907CD23-DBC8-45EB-861F-0AA290248C08}.Release|Win32.ActiveCfg = Release|Win32
+		{3907CD23-DBC8-45EB-861F-0AA290248C08}.Release|Win32.Build.0 = Release|Win32
+		{E257CF51-854F-481E-848B-B304BBCB3A84}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E257CF51-854F-481E-848B-B304BBCB3A84}.Debug|Win32.Build.0 = Debug|Win32
+		{E257CF51-854F-481E-848B-B304BBCB3A84}.Release|Win32.ActiveCfg = Release|Win32
+		{E257CF51-854F-481E-848B-B304BBCB3A84}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

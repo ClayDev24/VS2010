@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX10", "DirectX10\DirectX10.vcxproj", "{DD423469-B25C-4BE8-96D7-051EFE620580}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial00", "Tutorial00\Tutorial00.vcxproj", "{9D697818-A8EE-41AC-A203-372F895F5DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD423469-B25C-4BE8-96D7-051EFE620580}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD423469-B25C-4BE8-96D7-051EFE620580}.Debug|Win32.Build.0 = Debug|Win32
+		{DD423469-B25C-4BE8-96D7-051EFE620580}.Release|Win32.ActiveCfg = Release|Win32
+		{DD423469-B25C-4BE8-96D7-051EFE620580}.Release|Win32.Build.0 = Release|Win32
+		{9D697818-A8EE-41AC-A203-372F895F5DDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D697818-A8EE-41AC-A203-372F895F5DDD}.Debug|Win32.Build.0 = Debug|Win32
+		{9D697818-A8EE-41AC-A203-372F895F5DDD}.Release|Win32.ActiveCfg = Release|Win32
+		{9D697818-A8EE-41AC-A203-372F895F5DDD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
